@@ -1,0 +1,1081 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Kanit:wght@500;600;700;800;900&family=Roboto+Mono:wght@500&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Alkatra', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik', sans-serif; */
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* margin: auto auto; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  NAV BAR CSS   */
+.navbar {
+    width: 76.5vw;
+    padding-top: 2.5vh;
+    background-color: transparent;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Kanit', sans-serif;
+}
+
+.logo {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin-right: 10vw;
+}
+
+.logoImage {
+    width: 70px;
+    margin: 10px;
+}
+
+.website-name {
+    font-size: 2.2em;
+    font-family: 'Alkatra', cursive;
+}
+
+.nav-ul {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 20px 100px;
+}
+
+.nav-li {
+    list-style-type: none;
+}
+
+.nav-a {
+    color: #2A6B84;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0px 25px;
+}
+
+.nav-a:active {
+    color: #FFD753;
+    text-decoration: none;
+    border-bottom: 5px solid #2a6b84;
+}
+
+.nav-a:hover {
+    color: #FFD753;
+    text-decoration: none;
+    border-bottom: 5px solid #2a6b84;
+}
+
+.nav-btns {
+    font-family: 'Kanit', sans-serif;
+    margin: auto;
+}
+
+.login-btn {
+    background-color: #2A6B84;
+    color: #2A6B84;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 13px 39px;
+    margin: 0vh 1vw;
+}
+
+.login-btn:hover {
+    background-color: #FFD753;
+    color: #2A6B84;
+    font-size: 1.3em;
+    border-radius: 0.2em;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background-color: #2A6B84;
+    color: #ffffff;
+    font-size: 1.3em;
+    border: none;
+    outline: none;
+    border-radius: 0.2em;
+    padding: 13px 32px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0vh 1vw;
+}
+
+.signup-btn:hover {
+    background-color: #FFD753;
+    color: #2A6B84;
+    font-size: 1.3em;
+    border-radius: 0.2em;
+    padding: 13px 32px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0vh 1vw;
+}
+
+/*  CONTAINER ONE   */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxOne {
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.headingOne {
+    width: 32vw;
+    color: #2A6B84;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.textOne {
+    width: 29vw;
+    margin: 0vh 6vw;
+    color: #e1b525;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.containerOneImage {
+    margin: 8vh 0vw;
+    width: 73vw;
+}
+
+/*  CONTAINER TWO   */
+.containerTwo {
+    width: 98.8vw;
+    background-color: #04384c;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0vw;
+    overflow-x: hidden;
+}
+
+.textTwo {
+    width: 58vw;
+    text-align: center;
+    color: #FFD753;
+    font-size: 1.8em;
+    line-height: 2em;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/*  CONTAINER THREE   */
+.containerThree {
+    margin-top: 10vh;
+    width: 98.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.headingTwo {
+    margin-top: 6vh;
+    width: 35vw;
+    font-size: 3.8em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color: #2A6B84;
+}
+
+.textThree {
+    margin-top: 3vh;
+    width: 34vw;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #2A6B84;
+}
+
+.Explore-btn {
+    margin-top: 6vh;
+    padding: 2vh 1vw;
+    border-radius: 0.4em;
+    width: 10vw;
+    background-color: #FFD753;
+    color: #04384c;
+}
+
+.Explore-btn:hover {
+    background-color: #04384c;
+    color: #FFD753;
+}
+
+.textFour {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.containerThreeImages {
+    margin: 0vh 0vw 0vh 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.containerThreeIMG-One {
+    height: 40vh;
+    border-radius: 0.9em;
+}
+
+.containerThreeIMG-Two {
+    height: 50vh;
+    border-radius: 0.9em;
+    margin: 0vh 3vw;
+}
+
+.card-1 {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 0.5em;
+    padding: 2vh 2vw;
+    margin-left: -10vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 3px 5px 3px rgb(180, 180, 180);
+}
+
+.cardImage {
+    width: 6vw;
+}
+
+.cardBox {
+    display: flex;
+    flex-direction: column;
+    margin: 0vh 2vw;
+}
+
+.cardText {
+    margin-top: 1vh;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    color: #e1b525;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.five {
+    font-family: 'Kanit', sans-serif;
+    color: #e1b525;
+}
+
+/*  CONTAINER FOUR*/
+.containerFour {
+    margin-top: 10vh;
+    width: 98.8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+.headingThree {
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color: #2A6B84;
+}
+
+.textFive {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #2A6B84;
+}
+
+.cardContainer {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.roomCardOne {
+    background-color: #04384c;
+    width: 24.5vw;
+    height: 65vh;
+    border-radius: 0.7em;
+    margin: 0vh 1vw;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roomCardOne:hover .roomCardBox {
+    transform: translateY(-10px);
+}
+
+.roomCardOne:hover .roomName {
+    color: #FFD753;
+}
+
+.roomCardOne:hover .price {
+    color: #FFD753;
+}
+
+/* Room Card Box */
+.roomCardBox {
+    padding: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Room Name */
+.roomName {
+    color: #FFD753;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Price */
+.price {
+    color: #FFD753;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Description */
+.description {
+    color: #FFD753;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/* Room Attributes */
+.roomAttributes {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Attribute */
+.attributeOne,
+.attributeTwo,
+.attributeThree {
+    display: flex;
+    align-items: center;
+}
+
+.attributeName {
+    color: #FFD753;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.icon {
+    color: #FFD753;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.roomCardTwo {
+    background-color: #04384c;
+    width: 24.5vw;
+    height: 65vh;
+    border-radius: 0.7em;
+    margin: 0vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roomCardIMG {
+    width: 24.5vw;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    height: 47vh;
+}
+
+.roomCardTwo:hover .roomCardBox {
+    transform: translateY(-10px);
+}
+
+.roomCardTwo:hover .roomName {
+    color: #FFD753;
+}
+
+.roomCardTwo:hover .price {
+    color: #FFD753;
+}
+
+.roomCardThree {
+    background-color: #04384c;
+    width: 24.5vw;
+    height: 65vh;
+    border-radius: 0.7em;
+    margin: 0vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roomCardThree:hover .roomCardBox {
+    transform: translateY(-10px);
+}
+
+.roomCardThree:hover .roomName {
+    color: #FFD753;
+}
+
+.roomCardThree:hover .price {
+    color: #FFD753;
+}
+
+/*  CONTAINER FIVE  */
+
+.containerFive {
+    margin: 15vh 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFiveIMG {
+    width: 30vw;
+    border-radius: 0.7em;
+}
+
+.subContainer {
+    width: 47.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainerHeading {
+    width: 32vw;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color: #2A6B84;
+}
+
+.subContainerDescription {
+    margin: 2vh 0vw;
+    width: 32vw;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #e1b525;
+}
+
+.accordian {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.accordian-item {
+    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background: #ffffff;
+    padding: 8px;
+}
+
+.accordian-header {
+    width: 27vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #2a6b84;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.accordian-content {
+    background-color: #04384c;
+    color: #e1b525;
+    padding: 10px;
+    display: none;
+}
+
+.accordian-content p {
+    width: 27vw;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.accordian-item.active .accordian-content {
+    display: block;
+}
+
+/*  CONTAINER SIX   */
+
+.containerSix {
+    width: 78vw;
+    height: 38vh;
+    border-radius: 1.5em;
+    margin: 5vh 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #04384c;
+}
+
+.containerSixHeading {
+    font-size: 3.2em;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: #e1b525;
+    margin-bottom: 3vh;
+}
+
+.containerSixText-1,
+.containerSixText-2 {
+    margin: 1vh 0vw;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+}
+
+.icon-2 {
+    color: #04384c;
+}
+
+.containerSixBox {
+    margin-top: 2vh;
+    background-color: #ffffff;
+    width: 40vw;
+    border-radius: 0.5em;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: left;
+}
+
+.Input {
+    width: 25vw;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+
+.subscribeBTN {
+    background-color: #FFD753;
+    color: #2A6B84;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 0.2em;
+    /* border:5px solid #2A6B84; */
+    padding: 10px 20px;
+    margin-left: 5vw;
+}
+
+.subscribeBTN:hover {
+    background-color: #04384c;
+    color: #e1b525;
+}
+
+/*  CONTAINER SEVEN   */
+
+.containerSeven {
+    width: 78vw;
+    height: 38vh;
+    border-radius: 1.5em;
+    margin: 5vh 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.containerSeven-BoxOne,
+.containerSeven-BoxTwo,
+.containerSeven-BoxThree,
+.containerSeven-BoxFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.containerSeven-BoxOne {
+    width: 35vw;
+}
+
+.containerSeven-BoxTwo {
+    margin-top: 5.5vh;
+    width: 30vw;
+}
+
+.containerSeven-BoxThree {
+    margin-top: 1.5vh;
+    width: 30vw;
+    height: 34vh;
+}
+
+.containerSeven-BoxFour {
+    margin-top: 1vh;
+    width: 10vw;
+    height: 34vh;
+}
+
+.h1 {
+    font-size: 1.9em;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.AceEstateIMG {
+    display: none;
+}
+
+.h2,
+.h3,
+.h4 {
+    font-size: 1.5em;
+    color: #2A6B84;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.phone,
+.emailBox,
+.address {
+    display: flex;
+    flex-direction: row;
+    margin: 1.7vh 0vw;
+}
+
+.phoneName,
+.emailName,
+.addressName {
+    font-size: 1.1em;
+    color: #2A6B84;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.phoneNo,
+.emailEmail,
+.addressAddress {
+    margin-left: 1vw;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+.addressAddress {
+    width: 10vw;
+}
+
+.BoxTwo-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.BoxTwo-ul-li {
+    list-style-type: none;
+    margin: 1.7vh 0vw;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+.BoxThree-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.BoxThree-ul-li {
+    list-style-type: none;
+    margin: 1.7vh 0vw;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+.BoxFour-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.BoxFour-ul-li {
+    list-style-type: none;
+    margin: 1.7vh 0vw;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*   CONTAINER EIGHT   */
+.containerEight {
+    width: 78vw;
+    height: 10vh;
+    border-radius: 1.5em;
+    margin: 5vh 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 1.7vh 0vw;
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .navbar {
+        width: 76.5vw;
+        padding-top: 2.5vh;
+        background-color: transparent;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .logoImage {
+        width: 30px;
+        margin: 10px;
+    }
+
+    .website-name {
+        font-size: 1.2em;
+    }
+
+    .nav-a {
+        color: #2A6B84;
+        text-decoration: none;
+        font-size: 1em;
+        margin: 0px 14px;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+
+    .boxOne {
+        flex-direction: column;
+    }
+
+    .headingOne {
+        width: 80vw;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .textOne {
+        width: 80vw;
+        margin: 7vh 6vw;
+        font-size: 0.7em;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .containerOneImage {
+        margin: 8vh 6vw;
+        width: 79vw;
+    }
+
+    .textTwo {
+        width: 84vw;
+        text-align: center;
+        color: #FFD753;
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .containerThree {
+        flex-direction: column;
+    }
+
+    .boxTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headingTwo {
+        margin-top: 6vh;
+        width: 84vw;
+        font-size: 1.8em;
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        color: #2A6B84;
+    }
+
+    .textThree {
+        margin-top: 3vh;
+        width: 83vw;
+        text-align: left;
+        font-size: 0.7em;
+    }
+
+    .textFour {
+        font-size: 0.8em;
+    }
+
+    .Explore-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 6vh;
+        padding: 2vh 3vw;
+        border-radius: 0.2em;
+        width: 21vw;
+    }
+
+    .containerThreeImages {
+        margin: 9vh 0vw 0vh 8vw;
+    }
+
+    .containerThreeIMG-One {
+        height: 70vh;
+        border-radius: 0.5em;
+    }
+
+    .containerThreeIMG-Two {
+        height: 85vh;
+        border-radius: 0.5em;
+        margin: 0vh 3vw;
+    }
+
+    .card-1 {
+        display: none;
+    }
+
+    .containerFour {
+        margin-top: 11vh;
+        height: 60vh;
+    }
+
+    .headingThree {
+        font-size: 2em;
+    }
+
+    .textFive {
+        font-size: 0.9em;
+    }
+
+    .roomName {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .roomAttributes {
+        display: none;
+    }
+
+    .roomCardOne,
+    .roomCardThree,
+    .roomCardTwo {
+        background-color: #04384c;
+        width: 24.5vw;
+        height: 50vh;
+    }
+
+    .roomCardIMG {
+        width: 24.5vw;
+        border-top-left-radius: 0.7em;
+        border-top-right-radius: 0.7em;
+        height: 40vh;
+        /* margin-top: -40px; */
+    }
+
+    .containerFive {
+        margin: 10vh 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid #2a6b84;
+        width: 78vw;
+        padding-top: 10vh;
+    }
+
+    .containerFiveIMG {
+        width: 61vw;
+        border-radius: 0.7em;
+    }
+
+    .subContainerHeading {
+        width: 73vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        color: #2A6B84;
+        margin-top: 11vh;
+    }
+
+    .subContainerDescription {
+        margin: 2vh 0vw;
+        font-size: 0.8em;
+    }
+
+    .accordian {
+        margin-top: 12vh;
+    }
+
+    .accordian-header {
+        width: 70vw;
+    }
+
+    .accordian-item {
+        padding: 2px;
+    }
+
+    .containerSixHeading {
+        font-size: 2em;
+    }
+
+    .containerSixText-1,
+    .containerSixText-2 {
+        margin: 1vh 0vw;
+        font-size: 0.8em;
+    }
+
+    .subscribeBTN {
+        font-size: 0.9em;
+        font-weight: 600;
+        padding: 6px 13px;
+        margin-left: 8vw;
+        border-radius: 0.4em;
+    }
+
+    .containerSixBox {
+        margin-top: 2vh;
+        width: 57vw;
+        border-radius: 0.5em;
+        padding: 2px 20px;
+    }
+
+    .Input {
+        font-size: 0.9em;
+    }
+
+    input::placeholder {
+        content: "Enter email";
+    }
+
+    .containerSeven {
+        width: 78vw;
+        height: 156vh;
+        border-radius: 1.5em;
+        margin: 5vh 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+    }
+
+    .h1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .AceEstateIMG{
+        display: block;
+        width: 6vw;
+    }
+}
+
+/* @media screen and (max-width: 1200px) {} */
