@@ -806,10 +806,11 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+
     .navbar {
         width: 76.5vw;
-        padding-top: 2.5vh;
+        padding-top:2.5vh;
         background-color: transparent;
         overflow: hidden;
         display: flex;
@@ -974,7 +975,6 @@ body {
         border-top-left-radius: 0.7em;
         border-top-right-radius: 0.7em;
         height: 40vh;
-        /* margin-top: -40px; */
     }
 
     .containerFive {
@@ -1065,17 +1065,15 @@ body {
         background-color: #ffffff;
     }
 
-    .h1{
+    .h1 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
     }
 
-    .AceEstateIMG{
+    .AceEstateIMG {
         display: block;
         width: 6vw;
     }
 }
-
-/* @media screen and (max-width: 1200px) {} */
