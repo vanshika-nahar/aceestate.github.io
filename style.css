@@ -806,274 +806,116 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1080px) {
+@media screen and (max-width:1800px) {
 
     .navbar {
-        width: 76.5vw;
-        padding-top:2.5vh;
-        background-color: transparent;
+        width: 100vw;
+        padding-top: 2.5vh;
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        font-family: 'Kanit', sans-serif;
+        justify-items: center;
+        align-items: center;
     }
 
-    .logoImage {
-        width: 30px;
-        margin: 10px;
-    }
-
-    .website-name {
-        font-size: 1.2em;
-    }
-
-    .nav-a {
-        color: #2A6B84;
-        text-decoration: none;
-        font-size: 1em;
-        margin: 0px 14px;
+    .logo {
+        margin-right: 2vw;
     }
 
     .nav-btns {
         display: none;
     }
 
-    .boxOne {
-        flex-direction: column;
-    }
-
     .headingOne {
-        width: 80vw;
-        font-size: 2em;
-        font-weight: bold;
-        font-family: 'Rubik', sans-serif;
+        font-size: 2.5em;
     }
 
     .textOne {
-        width: 80vw;
-        margin: 7vh 6vw;
-        font-size: 0.7em;
-        font-weight: 500;
-        font-family: 'Rubik', sans-serif;
-    }
-
-    .containerOneImage {
-        margin: 8vh 6vw;
-        width: 79vw;
+        width: 39vw;
+        margin: 0vh 1vw;
+        font-size: 1.1em;
     }
 
     .textTwo {
-        width: 84vw;
-        text-align: center;
-        color: #FFD753;
-        font-size: 1em;
-        line-height: 1.2em;
-        letter-spacing: 1px;
-        font-weight: 500;
+        width: 78vw;
+        font-size: 1.2em;
     }
 
     .containerThree {
+        margin-top: 10vh;
+        width: 100vw;
         flex-direction: column;
+    }
+
+    .headingTwo {
+        margin-top: 6vh;
+        width: 62vw;
+        font-size: 3.5em;
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        color: #2A6B84;
+        text-align: center;
+    }
+
+    .textThree {
+        width: 62vw;
+        text-align: justify;
+    }
+
+    .Explore-btn {
+        width: 20vw;
+        text-align: center;
     }
 
     .boxTwo {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-items: center;
         align-items: center;
+        margin-bottom: 53px;
     }
 
-    .headingTwo {
-        margin-top: 6vh;
-        width: 84vw;
-        font-size: 1.8em;
-        font-weight: bold;
-        font-family: 'Kanit', sans-serif;
-        color: #2A6B84;
-    }
-
-    .textThree {
-        margin-top: 3vh;
-        width: 83vw;
-        text-align: left;
-        font-size: 0.7em;
-    }
-
-    .textFour {
-        font-size: 0.8em;
-    }
-
-    .Explore-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 6vh;
-        padding: 2vh 3vw;
-        border-radius: 0.2em;
-        width: 21vw;
-    }
-
-    .containerThreeImages {
-        margin: 9vh 0vw 0vh 8vw;
-    }
-
-    .containerThreeIMG-One {
-        height: 70vh;
-        border-radius: 0.5em;
-    }
-
-    .containerThreeIMG-Two {
-        height: 85vh;
-        border-radius: 0.5em;
-        margin: 0vh 3vw;
-    }
-
-    .card-1 {
-        display: none;
-    }
-
-    .containerFour {
-        margin-top: 11vh;
-        height: 60vh;
-    }
-
-    .headingThree {
-        font-size: 2em;
-    }
-
-    .textFive {
-        font-size: 0.9em;
-    }
-
-    .roomName {
-        font-size: 15px;
-        margin-bottom: 0px;
-    }
-
-    .price {
-        font-size: 20px;
-    }
-
-    .description {
-        display: none;
-    }
-
-    .roomAttributes {
-        display: none;
+    .cardContainer {
+        flex-direction: column;
     }
 
     .roomCardOne,
-    .roomCardThree,
-    .roomCardTwo {
-        background-color: #04384c;
-        width: 24.5vw;
-        height: 50vh;
+    .roomCardTwo,
+    .roomCardThree {
+        width: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
     }
 
     .roomCardIMG {
         width: 24.5vw;
         border-top-left-radius: 0.7em;
-        border-top-right-radius: 0.7em;
-        height: 40vh;
+        border-bottom-left-radius: 0.7em;
+        border-top-right-radius: 0em;
+        height: 35vh;
     }
 
-    .containerFive {
-        margin: 10vh 0vw;
+    .roomAttributes {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-top: 2px solid #2a6b84;
-        width: 78vw;
-        padding-top: 10vh;
+        justify-content: space-between;
     }
 
-    .containerFiveIMG {
-        width: 61vw;
-        border-radius: 0.7em;
+    .description {
+        width: 17vw;
     }
 
     .subContainerHeading {
-        width: 73vw;
-        text-align: center;
+        width: 32vw;
         font-size: 2em;
-        font-weight: bold;
-        font-family: 'Kanit', sans-serif;
-        color: #2A6B84;
-        margin-top: 11vh;
-    }
-
-    .subContainerDescription {
-        margin: 2vh 0vw;
-        font-size: 0.8em;
-    }
-
-    .accordian {
-        margin-top: 12vh;
-    }
-
-    .accordian-header {
-        width: 70vw;
-    }
-
-    .accordian-item {
-        padding: 2px;
-    }
-
-    .containerSixHeading {
-        font-size: 2em;
-    }
-
-    .containerSixText-1,
-    .containerSixText-2 {
-        margin: 1vh 0vw;
-        font-size: 0.8em;
-    }
-
-    .subscribeBTN {
-        font-size: 0.9em;
-        font-weight: 600;
-        padding: 6px 13px;
-        margin-left: 8vw;
-        border-radius: 0.4em;
     }
 
     .containerSixBox {
         margin-top: 2vh;
-        width: 57vw;
-        border-radius: 0.5em;
-        padding: 2px 20px;
-    }
-
-    .Input {
-        font-size: 0.9em;
-    }
-
-    input::placeholder {
-        content: "Enter email";
-    }
-
-    .containerSeven {
-        width: 78vw;
-        height: 156vh;
-        border-radius: 1.5em;
-        margin: 5vh 0vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
         background-color: #ffffff;
+        width: 49vw;
     }
 
-    .h1 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: row;
-    }
-
-    .AceEstateIMG {
-        display: block;
-        width: 6vw;
-    }
 }
