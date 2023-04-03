@@ -49,18 +49,6 @@ body {
     font-family: 'Alkatra', cursive;
 }
 
-.nav-ul {
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    flex-direction: row;
-    margin: 20px 100px;
-}
-
-.nav-li {
-    list-style-type: none;
-}
-
 .nav-a {
     color: #2A6B84;
     text-decoration: none;
@@ -918,4 +906,272 @@ body {
         width: 49vw;
     }
 
+}
+
+@media (max-width:500px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .headingOne {
+        font-size: 1.5em;
+    }
+
+    .textOne {
+        width: 39vw;
+        margin: 0vh 1vw;
+        font-size: 0.8em;
+    }
+
+    .textTwo {
+        width: 93vw;
+        font-size: 0.8em;
+    }
+
+    .containerTwo {
+        padding: 4vh 0vw;
+        width: 100vw;
+    }
+
+    .headingTwo {
+        margin-top: -3vh;
+        width: 70vw;
+        font-size: 1.5em;
+    }
+
+    .textThree {
+        width: 62vw;
+        font-size: 0.6em;
+        line-height: 1.5em;
+    }
+
+    .Explore-btn {
+        width: 32vw;
+        font-size: 0.7em;
+        padding: 1vh 2vw;
+        border-radius: 0.5em;
+        text-align: center;
+    }
+
+    .containerThreeIMG-Two {
+        height: 32vh;
+        border-radius: 0.5em;
+        margin: 0vh 3vw;
+    }
+
+    .containerThreeIMG-One {
+        height: 25vh;
+        border-radius: 0.5em;
+    }
+
+    .card-1 {
+        border-radius: 0.3em;
+        padding: 0.5vh 2vw;
+        margin-left: -22vw;
+    }
+
+    .cardText {
+        margin-top: 0.6vh;
+        font-size: 0.6em;
+    }
+
+    .five {
+        font-size: 0.5em;
+    }
+
+    .material-symbols-outlined {
+        font-size: 13px;
+        padding-top: 1px;
+        padding-right: 8px;
+    }
+
+    .cardImage {
+        width: 12vw;
+    }
+
+    .containerThreeImages {
+        margin-left: 1vw;
+    }
+
+    .headingThree {
+        font-size: 2em;
+    }
+
+    .textFive {
+        font-size: 1em;
+    }
+
+    .attributeName {
+        color: #FFD753;
+        font-size: 9px;
+    }
+
+    .description {
+        width: 41vw;
+        font-size: 9px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+
+    .price {
+        font-size: 13px;
+        letter-spacing: 0.2em;
+    }
+
+    .roomName {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .roomCardIMG {
+        width: 27.5vw;
+        border-top-left-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+        border-top-right-radius: 0em;
+        height: 15vh;
+    }
+
+    .roomCardOne,
+    .roomCardTwo,
+    .roomCardThree {
+        flex-direction: row;
+        height: 14.9vh;
+    }
+
+    .containerFive {
+        margin: 0vh 0vw;
+        width: 96vw;
+        border-top: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5vh;
+    }
+
+    .containerFiveIMG {
+        width: 79vw;
+        border-radius: 0.5em;
+    }
+
+    .subContainerHeading {
+        width: 85vw;
+        font-size: 1.8em;
+        text-align: center;
+        margin-top: 4vh;
+    }
+
+    .subContainerDescription {
+        margin: 2vh 0vw;
+        width: 79vw;
+        font-size: 0.9em;
+    }
+
+    .accordian-content-title {
+        font-size: 0.7em;
+    }
+
+    .accordian-header {
+        justify-content: flex-start;
+        width: 56vw;
+    }
+
+    .containerSixHeading {
+        font-size: 1.5em;
+        margin-bottom: 1vh;
+    }
+
+    .containerSixText-1,
+    .containerSixText-2 {
+        margin: 0vh 0vw;
+        font-size: 0.7em;
+    }
+
+    .containerSix {
+        width: 84vw;
+        height: 24vh;
+        border-radius: 0.6em;
+        margin: 5vh 0vw;
+    }
+
+    .containerSixBox {
+        margin-top: 2vh;
+        background-color: #ffffff;
+        width: 67vw;
+        padding: 5px;
+    }
+
+    .subscribeBTN {
+        font-size: 0.7em;
+        border-radius: 0.2em;
+        padding: 11px 12px;
+        margin-left: 18vw;
+    }
+
+    .Input {
+        width: 25vw;
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 0.68em;
+
+    }
+
+    .containerSeven {
+        width: 78vw;
+        height: 87vh;
+        border-radius: 1.5em;
+        margin: 5vh 0vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .containerSeven-BoxOne {
+        width: 73vw;
+    }
+
+    .addressAddress {
+        width: 54vw;
+    }
+
+    .phone,
+    .emailBox,
+    .address {
+        margin: 0.7vh 0vw;
+    }
+
+    .containerSeven-BoxTwo {
+        margin-top: 3.5vh;
+        width: 60vw;
+    }
+
+    .BoxTwo-ul-li,
+    .BoxThree-ul-li ,
+    .BoxFour-ul-li {
+        list-style-type: none;
+        margin: 0.7vh 0vw;
+        font-size: 1.1em;
+    }
+
+    .containerSeven-BoxThree {
+        margin-top: 1.5vh;
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .containerSeven-BoxFour {
+        margin-top: 1vh;
+        width: 66vw;
+        height: 23vh;
+    }
+
+    .containerEight{
+        font-size: 0.9em;
+        height: 2vh;
+    }
 }
